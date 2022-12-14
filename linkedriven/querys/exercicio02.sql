@@ -1,0 +1,1 @@
+SELECT testimonials.id as id, testimonials.message as message, u1.name as writer, u2.name as recipient FROM testimonials JOIN users u1 ON u1.id = testimonials."writerId" JOIN users u2 ON u2.id = testimonials."recipientId";

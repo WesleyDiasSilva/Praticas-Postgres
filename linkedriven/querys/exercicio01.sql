@@ -1,0 +1,1 @@
+SELECT users.id, users.name, cities.name as city FROM users INNER JOIN cities ON cities.id = users."cityId" WHERE cities.name = 'Rio de Janeiro';
