@@ -1,0 +1,1 @@
+SELECT "userId", COUNT(id) AS educations FROM educations GROUP BY "userId" ORDER BY educations DESC;
